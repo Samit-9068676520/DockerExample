@@ -1,0 +1,100 @@
+version: 1
+
+dn: ou=services,ou=configuration,ou=system
+objectClass: organizationalUnit
+objectClass: top
+ou: services
+
+dn: uid=admin-samit,ou=system
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: gggg
+sn: Verma
+uid: admin-samit
+userPassword:: e1NTSEF9ZHRKTElHZ0lMQzVQa3Y5MlAybGtEb0NrSFU3a2l4dWhnRG9JbEE9P
+ Q==
+
+dn: ou=interceptors,ou=configuration,ou=system
+objectClass: organizationalUnit
+objectClass: top
+ou: interceptors
+
+dn: uid=ads-test-user,ou=system
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: uuu
+sn: verma
+uid: ads-test-user
+userPassword:: e1NTSEF9ZDV3RjJKaVJYVXdPWXdXaVc3K3YzR0FSUks1Rlh3SU5WU0Zkd2c9P
+ Q==
+
+dn: prefNodeName=sysPrefRoot,ou=system
+objectClass: extensibleObject
+objectClass: organizationalUnit
+objectClass: top
+prefNodeName: sysPrefRoot
+
+dn: ou=configuration,ou=system
+objectClass: organizationalUnit
+objectClass: top
+ou: configuration
+
+dn: ou=system
+objectclass: organizationalUnit
+objectclass: top
+ou: system
+description: The System context entry
+
+dn: ou=partitions,ou=configuration,ou=system
+objectClass: organizationalUnit
+objectClass: top
+ou: partitions
+
+dn: ou=groups,ou=system
+objectClass: organizationalUnit
+objectClass: top
+ou: groups
+
+dn: uid=Rahul,ou=system
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: golu
+sn: Verma
+uid: Rahul
+userPassword:: e1NTSEF9bWt5S1BRVVRya2NDZTFKckIwOTI2ZC92SEI4VCsrTXg3am5mbHc9P
+ Q==
+
+dn: ou=users,ou=system
+objectClass: organizationalUnit
+objectClass: top
+ou: users
+
+dn: ou=consumers,ou=system
+objectclass: organizationalUnit
+objectclass: top
+ou: consumers
+
+dn: cn=Administrators,ou=groups,ou=system
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: Administrators
+uniqueMember:: MC45LjIzNDIuMTkyMDAzMDAuMTAwLjEuMT0gYWRtaW4gLDIuNS40LjExPSBze
+ XN0ZW0g
+
+dn: uid=admin,ou=system
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: system administrator
+sn: administrator
+displayName: Directory Superuser
+uid: admin
+userPassword:: c2VjcmV0
+
